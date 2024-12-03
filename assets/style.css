@@ -22,6 +22,10 @@ body {
 	font-size: 26px;
 }
 
+img{
+	object-fit: cover;
+}
+
 .nav ul {
 	display: flex;
 	list-style-type: none;
@@ -244,6 +248,20 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+#infoContact{
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+	background-color : rgb(165, 143, 143);
+	color : white;
+	padding : 20px 0;
+}
+
+
+
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -351,6 +369,15 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+
+	#infoContact{
+		display : flex;
+		flex-direction : column;
+	}
+
+	#pictureInfo{
+		width : 100%;
 	}
 }
 
